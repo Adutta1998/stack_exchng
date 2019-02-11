@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body{
+    margin: 0%;
+    padding: 0%;
+    background: #2dcc70;
+    font-family: 'Raleway', sans-serif;
+
+}
+h2{
+    margin: 0%;
+}
+/* blue shade : #34495e*/
+.rightpanel{
+    background: #34495e;
+    width:40%;
+    height: 100vh;
+    float: right;
+}
+.container{
+    position: relative;
+    max-width: 350px;
+    /* background: #2dcc70; */
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    border:2px solid #2dcc70;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.container .input_block{
+    position: relative;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 3px;
+}
+.container .input_block h2{
+    color: #fff;
+    text-align: center;
+}
+.container .input_block input{
+    width: 100%;
+    background: transparent;
+    border: 1px solid #2dcc70;
+    border-radius: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    padding: 10px 10px;
+    outline: none;
+    color: #fff;
+}
+.container .input_block label{
+    color: #fff;
+    position: relative;
+    left:10px;
+    top: -30px;
+    transition: 300ms;
+    padding: 1px;
+}
+
+.container .input_block input:focus~ label,
+.container .input_block input:valid~ label
+{
+    top: -55px;
+    border-radius: 20px;
+    padding: 3px 5px;
+    background:#2dcc70;
+    font-size: 14px;
+}
+.container .input_block input[type="button"]{
+    color: #2dcc70;
+    transition: 300ms;
+}
+.container .input_block button{
+    width: 100%;
+    background: transparent;
+    border: 1px solid #2dcc70;
+    border-radius: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    padding: 10px 10px;
+    outline: none;
+    color: #2dcc70;
+    transition: 300ms;
+}
+.container .input_block button:hover,.container .input_block button::selection{
+    background: #2dcc70;
+    color:#fff;
+}
+
+.signup_text{
+    text-align: center;
+    color: #fff;
+}
+
+.signup_anchor{
+    color: #2dcc70;
+    text-decoration: none;
+}
